@@ -6,7 +6,7 @@ export default class HomeScreen extends React.Component {
       return (
         <View style={styles.container}>
             <Text style={styles.title}>Home Screen</Text>               
-            <Image style={styles.pic} source={require('./profilePic.jpeg')} />
+            <Image style={styles.pic} source={require('./imageAssets/profilePic.jpeg')} />
             <Text style={styles.text}>This is my first React Native App</Text>
             <Text>Visit my <Text style={{color: 'blue'}}
                 onPress={() => Linking.openURL('http://javas01.github.io/home.html')}>
