@@ -69,18 +69,18 @@ export default class Cards extends React.Component {
     isGameOver = () => {
         var gameOverMessage
         var testNum = 0
-if(this.state.card1.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card2.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card3.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card4.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card5.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card6.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card7.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card8.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card9.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card10.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card11.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
-if(this.state.card12.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card1.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card2.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card3.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card4.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card5.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card6.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card7.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card8.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card9.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card10.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card11.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
+            if(this.state.card12.uri ===  'https://images5.alphacoders.com/508/thumb-1920-508247.jpg'){testNum++}
 
         if(
              testNum === 1
@@ -403,7 +403,9 @@ const styles = StyleSheet.create ({
             justifyContent: 'center',
             flexDirection: 'row',
             marginTop: 40,
-            width: '100%'
+            width: '100%',
+            borderRadius: 10,
+            overflow: 'hidden'
           },
           scores: {
             fontSize: 18,
@@ -412,5 +414,6 @@ const styles = StyleSheet.create ({
             backgroundColor: 'lightgray',
             padding: 5,
             fontWeight: 'bold',
+            overflow: 'hidden'
           }
 })
